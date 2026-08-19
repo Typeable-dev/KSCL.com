@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>kingsammechallengelist.com</title>
+
+    <style>
+         body {background-color: rgb(3, 0, 29);}
+         .title {position: absolute; left: 50px; top: 0px;}
+         .border {background-color: rgb(21, 21, 80); position: absolute; left: 0; top: 0; width: 1920px; height: 125px;}
+         .muga {position: absolute; left: 180px; top: 30px; width: 72px; height: 72px;}
+         h1 {color: white; font-size: 50px; font-family: Arial, Helvetica, sans-serif;}
+         p {color: white; font-size: 20px; font-family: Arial, Helvetica, sans-serif;}
+         .correction {position: absolute; left: 50px; top: 60px;}
+         .stereo-madness {width: 1500px; height: 700px; position: absolute; left: 300px; top: 150px;}
+         .listtext {position: absolute; left: 50px; top: 150px; width: 200px; height: 100px; font-size: 25px; font-weight: 700;cursor: pointer; border: none; border-radius: 20px; background-color:rgb(42, 38, 99); color: white;}
+         .discord-icon {position: absolute; left: 1800px; top: 30px; width: 50px; height: 50px; cursor: pointer;}
+         .darkmode {position: absolute; left: 1720px; top: 29px; width: 50px; height: 50px;}
+         .darkmode:hover {filter: brightness(70%)}
+         .discord-icon:hover {filter: brightness(70%)}
+         .lightmode {position: absolute; left: 1625px; top: 22px; width: 60px; height: 60px;}
+         .lightmode:hover {filter: brightness(70%)}
+         .leaderboards {position: absolute; left: 1540px; top: 22px; width: 60px; height: 60px;}
+         .leaderboards:hover {filter: brightness(70%)}
+         
+    </style>
+     <link rel="icon" href="MUGAPROFILE.png">
+</head>
+
+<body>
+    <div class = "border"></div>
+    <button class="listtext">1# Easiest kscl challenge</button>
+    <h1 class="title">KSCL</h1>
+    <p class="correction">kingsamme challenge list</p>
+    <img src="mugamuga.png" class="muga">
+    <iframe id="videoFrame" src="https://www.youtube.com/embed/C2KSF9wcqPE" class="stereo-madness" allowfullscreen></iframe>
+    <a href="https://discord.gg/F7RXWHXE32" target="_blank">
+        <img src="discord-icon.svg" class="discord-icon">
+    </a>
+    <img src="moon-svgrepo-com.svg" onclick="Togglebackground()" class="darkmode">
+    <img src="sun-2-svgrepo-com.svg" class="lightmode" onclick="Lightbackground()">
+    <img src="trophy-01-svgrepo-com.svg" class="leaderboards">
+    
+    <script> function Togglebackground() { document.body.style.backgroundColor = "rgb(3,0,29)"; document.querySelector(".border").style.backgroundColor = "rgb(21,21,80)"; document.querySelector(".listtext").style.backgroundColor = "rgb(42,38,99)";}
+
+        function Lightbackground() { document.body.style.backgroundColor = "rgb(255,255,255)"; document.querySelector(".border").style.backgroundColor = "rgb(75,68,171)"; document.querySelector(".listtext").style.backgroundColor = "rgb(75,68,171)";}
+    </script>
+    
+</body>
+</html>
