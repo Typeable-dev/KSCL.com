@@ -21,6 +21,8 @@
          .lightmode:hover {filter: brightness(70%)}
          .leaderboards {position: absolute; left: 1540px; top: 22px; width: 60px; height: 60px;}
          .leaderboards:hover {filter: brightness(70%)}
+         .idclass {position: absolute; left: 300px; top: 850px}
+         .listpoints {position: absolute; left: 700px; top: 850px;}
          
     </style>
      <link rel="icon" href="MUGAPROFILE.png">
@@ -39,10 +41,12 @@
     <img src="moon-svgrepo-com.svg" onclick="Togglebackground()" class="darkmode">
     <img src="sun-2-svgrepo-com.svg" class="lightmode" onclick="Lightbackground()">
     <img src="trophy-01-svgrepo-com.svg" class="leaderboards">
+    <h1 class="idclass">ID: 147261586</h1>
+    <h1 class="listpoints" >34.15 points</h1>
     
-    <script> function Togglebackground() { document.body.style.backgroundColor = "rgb(3,0,29)"; document.querySelector(".border").style.backgroundColor = "rgb(21,21,80)"; document.querySelector(".listtext").style.backgroundColor = "rgb(42,38,99)";}
+    <script> function Togglebackground() { document.body.style.backgroundColor = "rgb(3,0,29)"; document.querySelector(".border").style.backgroundColor = "rgb(21,21,80)"; document.querySelector(".listtext").style.backgroundColor = "rgb(42,38,99)"; document.querySelector(".idclass").style.color = "rgb(255,255,255)"; document.querySelector(".listpoints").style.color = "rgb(255,255,255)";}
 
-        function Lightbackground() { document.body.style.backgroundColor = "rgb(255,255,255)"; document.querySelector(".border").style.backgroundColor = "rgb(75,68,171)"; document.querySelector(".listtext").style.backgroundColor = "rgb(75,68,171)";}
+        function Lightbackground() { document.body.style.backgroundColor = "rgb(255,255,255)"; document.querySelector(".border").style.backgroundColor = "rgb(75,68,171)"; document.querySelector(".listtext").style.backgroundColor = "rgb(75,68,171)"; document.querySelector(".idclass").style.color = "rgb(75, 68, 171)"; document.querySelector(".listpoints").style.color = "rgb(75, 68, 171)";}
     </script>
     
 </body>
